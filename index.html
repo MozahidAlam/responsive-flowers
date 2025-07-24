@@ -113,35 +113,36 @@
         <button class="bg-amber-600 w-full h-[50px] text-white">ADD TO CART</button>
     </div>
 </section>
-  <section class="flex flex-col lg:flex-row lg:justify-center items-center m-auto max-w-[1140px] gap-[60px] mt-[210px]">
-
+  <section class="flex flex-col lg:flex-row lg:justify-center items-center m-auto max-w-[1140px] gap-[40px] lg:gap-[60px] mt-[60px] lg:mt-[210px] text-center lg:text-left px-[16px]">
+  
+  
   <div class="relative">
-    <img class="w-[540px] h-[597px]" src="assets/flower-store.png" alt="">
+    <img class="w-full max-w-[540px] h-auto m-auto" src="assets/flower-store.png" alt="">
     
-    <div class="hidden md:block absolute -top-35 -right-28">
-        <img class="w-[286px] h-[286px]" src="assets/trusted-badge.png" alt="">
+    <div class="hidden md:block absolute -top-24 -right-20">
+        <img class="w-[180px] md:w-[220px] lg:w-[286px] h-auto" src="assets/trusted-badge.png" alt="">
     </div>
-</div>
+  </div>
 
-
-
-
-
-
-    <div>
-        <h1 class="text-[50px] font-bold">Flower & Plants <br> Lover</h1>
-        <p class="w-[540px] text-[22px] text-gray-500">
+  <div class="m-auto">
+      <h1 class="text-[32px] sm:text-[40px] lg:text-[50px] font-bold mb-4">
+          Flower & Plants <br> Lover
+      </h1>
+      <div class="space-y-4">
+        <p class="max-w-full sm:max-w-[540px] text-[18px] sm:text-[20px] lg:text-[22px] text-gray-500">
             Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh
         </p>
-        <p class="w-[540px] text-[22px] text-gray-500">
+        <p class="max-w-full sm:max-w-[540px] text-[18px] sm:text-[20px] lg:text-[22px] text-gray-500">
             Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh
         </p>
-        <p class="w-[540px] text-[22px] text-gray-500">
+        <p class="max-w-full sm:max-w-[540px] text-[18px] sm:text-[20px] lg:text-[22px] text-gray-500">
             Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh
         </p>
-    </div>
+      </div>
+  </div>
 
 </section>
+
 
     <section class="mt-[133.88px]">
         <div class="text-center">
@@ -167,7 +168,7 @@
 </section>
 
 <section>
-    <div class="w-full h-[533px] bg-[url('./assets/news-letter-bg.png')] bg-no-repeat bg bg-cover text-center flex flex-col justify-center items-center mt-[120px] ">
+    <div class="w-full h-[533px] bg-[url('./assets/news-letter-bg.png')] bg-no-repeat bg bg-cover text-center flex flex-col justify-center items-center mt-[120px] pl-[16px] ">
         <h1 class="text-[50px] font-bold text-white">Join the colorful Bunch</h1>
        <div class="gap-[23px]">
          <input class="w-[644px] h-[50px] border-2 border-white bg-white" type="email" name="" id="" placeholder="Your Email">
@@ -177,33 +178,41 @@
 </section>
     </main>
     <footer>
-        <section class="lg:flex justify-between items-center max-w-[1440px] pl-[160px] pr-[160px] m-auto mb-[50px] mt-[50px]">
-            <div class="gap-[16px] mb-[20px] ">
-                <img src="assets/logo.png" alt="">
-                <p class="text-[22px] text-gray-500">Indulge your senses with the <br> beauty and fragrance of our fresh <br> flower shop. </p>
-            </div>
-            <div>
-               <ul class="text-gray-500 font-normal  space-y-4 md:space-y-0 lg:grid grid-cols-2 justify-center gap-[37px]">
+       <section class="flex flex-col lg:flex-row justify-between items-center max-w-[1440px] px-6 lg:px-[160px] m-auto mb-[50px] mt-[50px] text-center lg:text-left gap-6">
+    
+    <!-- Logo and text -->
+    <div class="flex flex-col items-center lg:items-start gap-4 mb-[20px]">
+        <img src="assets/logo.png" alt="">
+        <p class="text-[18px] sm:text-[22px] text-gray-500 w-full sm:w-[359px] sm:h-[48px]">
+            Indulge your senses with the <br> beauty and fragrance of our fresh <br> flower shop.
+        </p>
+    </div>
 
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About us</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">FAQ</a></li>
-                    <li><a href="">Contact Us</a></li>
-                    <li><a href="">Features</a></li>
-                    <li><a href="">Pricing</a></li>
-                    <li><a href="">Pricay Policy</a></li>
-                    <li><a href="">Terms Of Services</a></li>
-                    <li><a href="">Help Center</a></li>
-                </ul>
-            </div>
-            <div class="flex mt-4 mb-4 gap-[24px]">
-                <img src="assets/icon-facebook.png" alt="">
-                <img src="assets/icon-linkedin.png" alt="">
-                <img src="assets/icon-twitter.png" alt="">
-                <img src="assets/icon-youtube.png" alt="">
-            </div>
-        </section>
+    <!-- Navigation links -->
+    <div>
+        <ul class="text-gray-500 font-normal space-y-4 md:space-y-0 lg:grid lg:grid-cols-2 justify-center gap-[37px]">
+            <li><a href="">Home</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">FAQ</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Features</a></li>
+            <li><a href="">Pricing</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Terms Of Services</a></li>
+            <li><a href="">Help Center</a></li>
+        </ul>
+    </div>
+
+    <!-- Social icons -->
+    <div class="flex justify-center lg:justify-start mt-4 mb-4 gap-[24px]">
+        <img src="assets/icon-facebook.png" alt="">
+        <img src="assets/icon-linkedin.png" alt="">
+        <img src="assets/icon-twitter.png" alt="">
+        <img src="assets/icon-youtube.png" alt="">
+    </div>
+</section>
+
     </footer>
 </body>
 
